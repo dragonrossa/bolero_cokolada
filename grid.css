@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative; 
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+    position: relative; 
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative; 
+  }
+  
+  .box {background-color:  }
+  .box1 { 
+    text-align: justify;
+    margin-left: 60px;
+   padding-top: 15px;
+   font-family: 'Alegreya Sans', sans-serif;
+   color:  #562802;
+   font-size: 18px;
+ 
+  
+  }
+  .box2 { 
+   
+   }
+
+  .box3 { 
+
+  }
+  .box4 {
+    text-align: justify;
+    margin-left: 60px;
+   margin-top: 20px;
+   padding-top: 15px;
+   font-family: 'Alegreya Sans', sans-serif;
+   color:  #562802;
+   font-size: 18px;
+ 
+
+  }
+
+  * {
+    box-sizing:border-box;
+  }
+  
+  .left {
+    background-color:#3a281f;
+    padding:20px;
+    padding-left: 100px;
+    float:left;
+    width:30%;
+    position: relative; 
+   /* The width is 20%, by default */
+  }
+  
+  .main {
+    background-color:#3a281f;
+    padding:20px;
+    position: relative; 
+    float:left;
+    width:50%;
+   /* The width is 60%, by default */
+  }
+  
+  .right {
+    background-color:#3a281f;
+    padding:20px;
+    float:left;
+    width:20%;
+    position: relative; 
+    /* The width is 20%, by default */
+  }
+  
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width:800px) {
+    .left, .main, .right {
+      width:100%;
+  /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  

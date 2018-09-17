@@ -1,0 +1,483 @@
+/*  
+    Recommeded CSS
+    ==============
+*/
+
+
+.panel {
+    position: fixed;
+    left: -18.625em; /*or width of your navigation panel*/
+    width: 18.625em; /*should match the above value*/
+}
+
+/*  
+    Demo Specific Styles
+    ====================
+*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffe2c0;
+    line-height: 1.5;
+    background-color: #ffe2c0;
+}
+
+.wrap {
+    position: relative;
+    max-width: 80%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.panel {
+    background: #491a00;
+}
+
+.panel a {
+    color: #fff;
+}
+
+h3{
+    color: #cfcccc;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    position: relative;
+    text-align: left;
+    left: 0px;
+}
+a{
+    color: #faf5f5;
+}
+
+.hr1 { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color:  #ffe2c0;
+} 
+
+hr{
+    position: relative;
+    left:0px;
+   
+}
+
+p{
+    font-size: 16px;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 0px;
+}
+.p1{
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 0px;
+    padding-top: 0;
+   
+}
+.p11{
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+   
+}
+.p112{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #e2e2e2;
+    font-size: 13px;
+
+
+}
+
+.p113{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+  
+    
+    font-size:23px;
+    color: #cfcccc;
+
+    margin-bottom:20px;
+    margin-top: 30px;
+    position: relative;
+    text-align: left;
+    left: 0px;
+
+
+}
+.p2{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+   padding-top: 15px;
+   font-family: 'Alegreya Sans', sans-serif;
+   color:  #562802;
+   font-size: 18px;
+  
+}
+.p21{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+   padding-top: 5px;
+   font-family: 'Alegreya Sans', sans-serif;
+   color:  #562802;
+   font-size: 16px;
+  
+}
+
+.p22{
+    text-align: justify;
+   padding-top: 10px;
+   font-family: 'Alegreya Sans', sans-serif;
+   color:  #562802;
+   font-size: 20px;
+  
+}
+
+.p3{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+   padding-top: 20px;
+  
+   color:  #562802;
+   text-indent: 50px;
+   font-family: 'Rubik', sans-serif;
+}
+
+.p4{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+ 
+   padding-bottom: 10px;
+   color:  #562802;
+   text-indent: 50px;
+   font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+
+.h11{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+   padding-top: 30px;
+  
+   color:  #562802;
+   font-family: 'Rubik', sans-serif;
+
+}
+
+.h12{
+    text-align: justify;
+   padding-top: 30px;
+   color:   #fff;
+   font-family: 'Rubik', sans-serif,700;
+ 
+
+
+}
+
+.h13{
+    text-align: justify;
+    padding-top: 30px;
+    color: #3b0c00;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+
+}
+.h14{
+    text-align: center;
+    padding:30px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+}
+.h15{
+    text-align: justify;
+  
+  
+    color: #3b0c00;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 10px;
+    
+   padding-top: 30px;
+
+
+
+}
+.h16{
+    text-align: justify;
+    padding-top: 0px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    padding-left: 15px;
+
+}
+
+.hr1{
+    color:  #562802;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+.masthead{
+    background-color:  #562802;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom: 7px solid #ebbe9d;
+  
+}
+
+div.b {
+    word-wrap: break-word;
+    widows: 600px; 
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+   
+    
+}
+
+.carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width:100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+
+.container-fluid {
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    position: relative; 
+    padding-left: 10%;
+    padding-right: 10%;
+   /* Should be removed. Only for demonstration */
+}
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 100px;
+    height: 500px;
+    position: relative; 
+   padding-left: 5%;
+   padding-right: 5%;
+   
+   
+     /* Should be removed. Only for demonstration */
+}
+
+.column3 {
+    float: left;
+    width: 25.00%;
+    height: 350px;
+  
+    position: relative; 
+
+   
+     /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .column2{
+        width: 100%;
+
+    }
+    .column3{
+        width: 100%;
+
+    }
+    
+}
+
+.center-div
+{
+     margin: 0 auto;
+     max-width: 100%;
+}
+div.a {
+    height: auto;
+    max-width: -100px;
+    border: 1px solid white;
+    width: 260px;
+  
+  
+}
+div.b {
+    height: auto;
+    max-width: -100px;
+    border: 1px solid white;
+    width: 200px;
+  
+  
+}
+
+
+.circle img {
+    transition: 1s ease;
+    }
+    
+    .circle img:hover {
+    border-radius:50%;
+    transition: 1s ease;
+    }
